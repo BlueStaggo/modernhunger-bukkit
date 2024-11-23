@@ -18,19 +18,13 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
-  <repositories>
-    <repository>
-      <id>craftbukkit-repo</id>
-      <url>https://repo.mikeprimm.com/</url>
-    </repository>
-  </repositories>
-
   <dependencies>
     <dependency>
       <groupId>org.bukkit</groupId>
       <artifactId>craftbukkit</artifactId>
       <version>1.4.7-R1.0</version>
-      <scope>compile</scope>
+      <scope>system</scope>
+      <systemPath>${project.basedir}/lib/bukkit.jar</systemPath>
     </dependency>
   </dependencies>
 
