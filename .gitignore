@@ -2,4 +2,5 @@
 /.settings/
 /target/
 
-/lib/bukkit.jar
+.gradle/
+build/

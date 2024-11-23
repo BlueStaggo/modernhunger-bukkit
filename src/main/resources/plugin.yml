@@ -1,5 +1,5 @@
 name: modernhunger
 main: io.bluestaggo.modernhunger.ModernHunger
-version: 1.0.0
+version: ${version}
 description: 1.11+ hunger values
 author: BlueStaggo
